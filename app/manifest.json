@@ -1,0 +1,24 @@
+{
+  "name": "乡野星图 · 县乡青少年职业探索工作台",
+  "short_name": "乡野星图",
+  "description": "打开即用不用登录：做霍兰德职业兴趣测评（60 题，带补答闸门），看 29 个真实职业画像与个性化推荐，做职业对比、问学长、做 14 件分阶探索任务；全程有小星星 AI 助手带路，记录只存本机。教师端是独立页面 teacher.html。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf7ef",
+  "theme_color": "#10312f",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "做测评", "url": "./index.html#test" },
+    { "name": "问学长", "url": "./index.html#ask" },
+    { "name": "职业星图", "url": "./index.html#map" },
+    { "name": "教师端", "url": "./teacher.html" }
+  ]
+}

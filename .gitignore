@@ -1,5 +1,4 @@
-# 构建产物
-App/
+# 构建产物（注意：不要写 App/，Windows 大小写不敏感会误伤 app/）
 build/
 dist/
 
